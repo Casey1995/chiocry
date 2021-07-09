@@ -27,7 +27,7 @@ def intAsignment():
         for items in span:
             ingredient = items.replace('<span class="description">', '')
             ingredients = ingredient.replace('</span>', '.')
-            print(ingredients)
+            return ingredients
     except ValueError:
         print('A very specific bad thing happened!')
 
